@@ -1,0 +1,46 @@
+<form method="post" id="tlc_payment_forms_transaction">
+    <p>
+        <label for="giving_for">Giving For</label>
+        <select class="form-control" name="giving_for">
+                <option value="offering">Offering</option>
+                <option value="tithe">Tithe</option>
+                <option value="partnership">Partnership</option>
+                <option value="others">Others</option>
+            </select>
+    </p>
+    <p>
+        <label for="first_name">
+                Your Full Name                <abbr title="required" aria-label="required">*</abbr>
+            </label>
+        <input type="text" class="form-control" name="full_name" required="">
+    </p>
+    <p>
+        <label for="email">
+                Email address                <abbr title="required" aria-label="required">*</abbr>
+            </label>
+        <input type="email" class="form-control" name="email" required="">
+    </p>
+    <p>
+        <label for="phone">
+                Phone Number            </label>
+        <input type="text" class="form-control" name="phone">
+    </p>
+    <p>
+        <label for="amount">
+                Amount                <abbr title="required" aria-label="required">*</abbr>
+            </label>
+        <input type="text" class="form-control" name="amount" required="">
+    </p>
+    <p>
+        <label for="currency">Currency</label>
+        <select class="form-control" name="currency">
+                <option value="NGN">NGN ₦</option>
+                <option value="USD">USD $</option>
+                <option value="EUR">EUR €</option>
+                <option value="GBP">GBP £</option>
+            </select>
+    </p>
+    <p>
+        <input type="submit" name="submit" value="Give Now">
+    </p>
+</form>

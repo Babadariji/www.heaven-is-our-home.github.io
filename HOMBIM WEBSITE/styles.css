@@ -1,0 +1,35 @@
+body {
+    background-color: #2B3467;
+}
+
+.history {
+    background-color: white;
+}
+
+.welcome {
+    background-color: #2B3467;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.head {
+    background-color: #2B3467;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100px
+}
+
+.card1 {
+    background-color: #2B3467;
+    position: relative;
+    top: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service {
+    position: relative;
+    top: 100px;
+}
